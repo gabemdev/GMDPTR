@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D107E9519FA074400600788 /* libGMDPTR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D107E8919FA074400600788 /* libGMDPTR.a */; };
+		6D107EA419FA08E700600788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D107EA319FA08E700600788 /* Foundation.framework */; };
+		6D107EA619FA08F100600788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D107EA519FA08F100600788 /* UIKit.framework */; };
+		6D107EAC19FA0A0100600788 /* GMDPTRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D107EAB19FA0A0100600788 /* GMDPTRView.m */; };
+		6D107EAF19FA1BE300600788 /* GMDPTRDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D107EAE19FA1BE300600788 /* GMDPTRDefault.m */; };
+		6D107EB219FA1F1A00600788 /* GMDPTRSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D107EB119FA1F1A00600788 /* GMDPTRSimple.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D107E9619FA074400600788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D107E8119FA074400600788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D107E8819FA074400600788;
+			remoteInfo = GMDPTR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D107E8719FA074400600788 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D107E8919FA074400600788 /* libGMDPTR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGMDPTR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D107E9419FA074400600788 /* GMDPTRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMDPTRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D107E9A19FA074400600788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D107EA319FA08E700600788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D107EA519FA08F100600788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D107EA819FA094E00600788 /* GMDPTR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GMDPTR-Prefix.pch"; path = "GMDPTR/Other Sources/GMDPTR-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		6D107EA919FA09BB00600788 /* GMDPTR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMDPTR.h; sourceTree = "<group>"; };
+		6D107EAA19FA0A0100600788 /* GMDPTRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDPTRView.h; sourceTree = "<group>"; };
+		6D107EAB19FA0A0100600788 /* GMDPTRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDPTRView.m; sourceTree = "<group>"; };
+		6D107EAD19FA1BE300600788 /* GMDPTRDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDPTRDefault.h; sourceTree = "<group>"; };
+		6D107EAE19FA1BE300600788 /* GMDPTRDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDPTRDefault.m; sourceTree = "<group>"; };
+		6D107EB019FA1F1A00600788 /* GMDPTRSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDPTRSimple.h; sourceTree = "<group>"; };
+		6D107EB119FA1F1A00600788 /* GMDPTRSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDPTRSimple.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D107E8619FA074400600788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D107EA619FA08F100600788 /* UIKit.framework in Frameworks */,
+				6D107EA419FA08E700600788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D107E9119FA074400600788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D107E9519FA074400600788 /* libGMDPTR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D107E8019FA074400600788 = {
+			isa = PBXGroup;
+			children = (
+				6D107E8B19FA074400600788 /* GMDPTR */,
+				6D107E9819FA074400600788 /* GMDPTRTests */,
+				6D107EA719FA08F400600788 /* Frameworkds */,
+				6D107E8A19FA074400600788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D107E8A19FA074400600788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D107E8919FA074400600788 /* libGMDPTR.a */,
+				6D107E9419FA074400600788 /* GMDPTRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D107E8B19FA074400600788 /* GMDPTR */ = {
+			isa = PBXGroup;
+			children = (
+				6D107EA919FA09BB00600788 /* GMDPTR.h */,
+				6D107EAD19FA1BE300600788 /* GMDPTRDefault.h */,
+				6D107EAE19FA1BE300600788 /* GMDPTRDefault.m */,
+				6D107EB019FA1F1A00600788 /* GMDPTRSimple.h */,
+				6D107EB119FA1F1A00600788 /* GMDPTRSimple.m */,
+				6D107EAA19FA0A0100600788 /* GMDPTRView.h */,
+				6D107EAB19FA0A0100600788 /* GMDPTRView.m */,
+			);
+			path = GMDPTR;
+			sourceTree = "<group>";
+		};
+		6D107E9819FA074400600788 /* GMDPTRTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D107E9919FA074400600788 /* Supporting Files */,
+			);
+			path = GMDPTRTests;
+			sourceTree = "<group>";
+		};
+		6D107E9919FA074400600788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D107E9A19FA074400600788 /* Info.plist */,
+				6D107EA819FA094E00600788 /* GMDPTR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D107EA719FA08F400600788 /* Frameworkds */ = {
+			isa = PBXGroup;
+			children = (
+				6D107EA519FA08F100600788 /* UIKit.framework */,
+				6D107EA319FA08E700600788 /* Foundation.framework */,
+			);
+			name = Frameworkds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D107E8819FA074400600788 /* GMDPTR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D107E9D19FA074400600788 /* Build configuration list for PBXNativeTarget "GMDPTR" */;
+			buildPhases = (
+				6D107E8519FA074400600788 /* Sources */,
+				6D107E8619FA074400600788 /* Frameworks */,
+				6D107E8719FA074400600788 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMDPTR;
+			productName = GMDPTR;
+			productReference = 6D107E8919FA074400600788 /* libGMDPTR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D107E9319FA074400600788 /* GMDPTRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D107EA019FA074400600788 /* Build configuration list for PBXNativeTarget "GMDPTRTests" */;
+			buildPhases = (
+				6D107E9019FA074400600788 /* Sources */,
+				6D107E9119FA074400600788 /* Frameworks */,
+				6D107E9219FA074400600788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D107E9719FA074400600788 /* PBXTargetDependency */,
+			);
+			name = GMDPTRTests;
+			productName = GMDPTRTests;
+			productReference = 6D107E9419FA074400600788 /* GMDPTRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D107E8119FA074400600788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gabe Morales";
+				TargetAttributes = {
+					6D107E8819FA074400600788 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6D107E9319FA074400600788 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D107E8419FA074400600788 /* Build configuration list for PBXProject "GMDPTR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D107E8019FA074400600788;
+			productRefGroup = 6D107E8A19FA074400600788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D107E8819FA074400600788 /* GMDPTR */,
+				6D107E9319FA074400600788 /* GMDPTRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D107E9219FA074400600788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D107E8519FA074400600788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D107EB219FA1F1A00600788 /* GMDPTRSimple.m in Sources */,
+				6D107EAC19FA0A0100600788 /* GMDPTRView.m in Sources */,
+				6D107EAF19FA1BE300600788 /* GMDPTRDefault.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D107E9019FA074400600788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D107E9719FA074400600788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D107E8819FA074400600788 /* GMDPTR */;
+			targetProxy = 6D107E9619FA074400600788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D107E9B19FA074400600788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D107E9C19FA074400600788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D107E9E19FA074400600788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/GMDPTR/Other Sources/GMDPTR-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Weverything";
+			};
+			name = Debug;
+		};
+		6D107E9F19FA074400600788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/GMDPTR/Other Sources/GMDPTR-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Weverything";
+			};
+			name = Release;
+		};
+		6D107EA119FA074400600788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bnei Baruch USA (88BVT739BF)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMDPTRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D107EA219FA074400600788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bnei Baruch USA (88BVT739BF)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GMDPTRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D107E8419FA074400600788 /* Build configuration list for PBXProject "GMDPTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D107E9B19FA074400600788 /* Debug */,
+				6D107E9C19FA074400600788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D107E9D19FA074400600788 /* Build configuration list for PBXNativeTarget "GMDPTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D107E9E19FA074400600788 /* Debug */,
+				6D107E9F19FA074400600788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D107EA019FA074400600788 /* Build configuration list for PBXNativeTarget "GMDPTRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D107EA119FA074400600788 /* Debug */,
+				6D107EA219FA074400600788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D107E8119FA074400600788 /* Project object */;
+}
