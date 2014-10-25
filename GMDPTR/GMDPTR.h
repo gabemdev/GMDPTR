@@ -7,3 +7,7 @@
 //
 
 #import "GMDPTRView.h"
+
+#import "GMDPTRDefault.h"
+
+#import "GMDPTRSimple.h"
